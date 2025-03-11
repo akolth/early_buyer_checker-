@@ -15,7 +15,7 @@ The tool requires:
 ### Installation Steps
 
 #### For macOS:
- best run to run this on cli 
+ best to run this on cli 
 1. **Install Python** :
    - Download and install from [python.org](https://www.python.org/downloads/)
    - Or use Homebrew: `brew install python` via cli 
@@ -47,6 +47,8 @@ The tool requires:
 3. Update the following variables at the top of the script:
    - `BASESCAN_API_KEY`: Your Basescan API key (get one at [basescan.org](https://basescan.org/) it's free)
    - `CONTRACT_ADDRESSES`: List of token contract addresses you want to analyze (api could be rate limited, do not use too many addresses)
+PS: Edit out the addresses in the script unless if you intend to get analysis for the same tokens i analysed
+
 
 ### Step 2: Run the Analysis
 
@@ -157,4 +159,4 @@ Import-Csv .\10x_holders_0xc06340_20250310.csv | Select-Object -Property wallet 
 
 ---
 
-For questions or improvements, please reach out to the @gridrrr on X(fka Twitter) or @akolth on telegram.
+For questions or improvements, please reach out to [https://x.com/gridrrr] on X(fka Twitter) or @akolth on telegram.
